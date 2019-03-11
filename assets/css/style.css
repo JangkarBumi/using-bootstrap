@@ -1,2 +1,55 @@
-/* section-category-name>>font */
 
+.section-category-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+}
+.section-category-name a, .section .subscribe{
+    color: #f72210 !important;
+}
+.section a{
+    color: black;
+}
+
+.section a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.article-header-big {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: bolder;
+    font-family:  'Roboto', sans-serif;
+}
+
+.article-header-big a:hover {
+    border-bottom: 2px solid #f72210;
+    
+}
+
+
+.article-header-small {
+    line-height: 1.4em;
+}
+.article-header-small a:hover {
+    color: #f72210;
+}
+
+.w-35 {
+    width: 45%;
+}
+
+.button-red {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font: bold 18px/18px "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background-color: #f72210;
+}
+
+
+.bg {
+    background-color: #f4f5f6
+}
