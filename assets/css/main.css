@@ -310,3 +310,14 @@ body {
     margin-top: 2px;
     text-transform: uppercase;
 }
+
+.fab{
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width:768px) {
+    .copyright {
+       margin-top: 0px!important;
+    }
+}
