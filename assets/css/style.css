@@ -1,4 +1,10 @@
 
+
+.img {
+    object-fit: cover;
+    object-position: center;
+}
+
 .section-category-name {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
@@ -35,10 +41,6 @@
     color: #f72210;
 }
 
-.w-35 {
-    width: 45%;
-}
-
 .button-red {
     display: inline-block;
     padding: 10px;
@@ -51,5 +53,10 @@
 
 
 .bg {
-    background-color: #f4f5f6
+    background-color: #f4f5f6;
+    width: 100%;
+}
+
+.section p {
+    overflow: hidden;
 }
